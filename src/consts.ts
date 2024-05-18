@@ -41,23 +41,23 @@ export const HeaderLinks = [
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
-  { href: "/posts/why-astro/", title: "Astro" },
-  { href: "/posts/tailwind-typography/", title: "Tailwind" },
+  // { href: "/posts/why-astro/", title: "Astro" },
+  // { href: "/posts/tailwind-typography/", title: "Tailwind" },
   { href: "/tags/", title: "Tags" },
 ];
 
 // Social Links, src/components/Footer.astro
 export const SocialLinks = [
-  { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
+  // { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
   {
-    href: "https://twitter.com/astrodotbuild",
-    icon: "tabler:brand-twitter",
-    label: "Twitter",
+    href: "https://www.youtube.com/channel/UCZfyjEf1lqUiZWN0eMZ_r-A",
+    icon: "tabler:brand-youtube",
+    label: "YouTube",
   },
   {
-    href: "https://github.com/isooosi",
-    icon: "tabler:brand-github",
-    label: "GitHub",
+    href: "https://www.instagram.com/diversparadisekomodo/",
+    icon: "tabler:brand-instagram",
+    label: "Instagram",
   },
 ];
 

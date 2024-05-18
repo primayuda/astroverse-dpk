@@ -24,6 +24,8 @@ Description: A small rock pinnacle that rises from deep waters, Batu Bolong is f
 Marine Life: Schools of colorful reef fish, Napoleon wrasse, giant trevally, and occasional sightings of pelagic species like sharks and manta rays.  
 Highlights: The site offers strong currents that bring nutrient-rich waters, supporting a thriving ecosystem.  
 
+[More Information](/posts/batu-bolong/)
+
 2. **Castle Rock**
 
 Description: An underwater seamount located north of Komodo Island.  
