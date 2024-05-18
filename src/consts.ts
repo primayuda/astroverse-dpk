@@ -59,6 +59,11 @@ export const SocialLinks = [
     icon: "tabler:brand-instagram",
     label: "Instagram",
   },
+  {
+    href: "https://www.tripadvisor.co.id/Attraction_Review-g1777483-d3483340-Reviews-Divers_Paradise_Komodo-Labuan_Bajo_Flores_East_Nusa_Tenggara.html",
+    icon: "tabler:brand-tripadvisor",
+    label: "Trip Advisor",
+  },
 ];
 
 // Search Page Metadata, src/pages/search.astro

@@ -7,9 +7,15 @@ const description = "Courses offered by Divers Paradise Komodo";
 
 import ow from "/src/assets/ow.webp";
 import aow from "/src/assets/aow.webp";
+import SSI_Logo from "/src/assets/SSI_LOGO.png";
+import diveassure from "/src/assets/dive_assure.jpg";
+import dan from "/src/assets/dan.jpg";
 
+// TODO : activate link to SSI, Dive Assure and DAN
 ---
 <BaseLayout title={title} description={description}>
+<h1 class="w-full text-4xl text-center">Dive Course</h1>
+<Image src={SSI_Logo} alt="SSI Logo" class="w-[100px] aspect-auto mx-auto mt-5" />
 <!-- Card Blog -->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <!-- Grid -->
@@ -87,4 +93,6 @@ import aow from "/src/assets/aow.webp";
   <!-- End Grid -->
 </div>
 <!-- End Card Blog -->
+<Image src={diveassure} alt="Dive Assure Banner" class="mx-auto mb-5" />
+<Image src={dan} alt="Dive Alert Network Banner" class="mx-auto" />
 </BaseLayout>
