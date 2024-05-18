@@ -1,0 +1,85 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const title = "Course";
+const description = "Courses offered by Divers Paradise Komodo";
+---
+<BaseLayout title={title} description={description}>
+<!-- Card Blog -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <!-- Grid -->
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Card -->
+    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+      <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
+        <img src="/src/assets/ow.webp" alt="turtle with diver" class="rounded-t-xl" />
+      </div>
+      <div class="p-4 md:p-6">
+        <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Beginner
+        </span>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+          SSI Open Water
+        </h3>
+        <p class="mt-3 font-bold text-gray-500 dark:text-neutral-500">
+          6 dives over 2 days + classroom/online sessions
+        </p>
+        <p class="mt-3 text-gray-500 dark:text-neutral-500">
+          Beginner certification course. Essential license for those who want to dive around the world.
+        </p>
+        <p class="mt-5 font-bold text-gray-500 dark:text-neutral-500">
+          IDR 7.000.000
+        </p>
+        <p class="mt-5 italic text-gray-500 dark:text-neutral-500">
+          Exclude Komodo National Park Daily ticket
+        </p>
+      </div>
+      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+        <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" 
+           href="/contact/"
+        >
+          Book Now !!
+        </a>
+      </div>
+    </div>
+    <!-- End Card -->
+    <!-- Card -->
+    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+      <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
+        <img src="/src/assets/aow.webp" alt="turtle with diver" class="rounded-t-xl" />
+      </div>
+      <div class="p-4 md:p-6">
+        <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Continuing Education
+        </span>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+          SSI Advanced Adventurer
+        </h3>
+        <p class="mt-3 font-bold text-gray-500 dark:text-neutral-500">
+          6 dives over 2 days
+        </p>
+        <p class="mt-3 text-gray-500 dark:text-neutral-500">
+          Continue your education from any Open Water certification (SSI, PADI, NAUI, RAID, etc.). Includes 5 underwater specialty skill workshops and 1 free fun dive.
+        </p>
+        <p class="mt-5 font-bold text-gray-500 dark:text-neutral-500">
+          IDR 6.800.000
+        </p>
+        <p class="mt-5 italic text-gray-500 dark:text-neutral-500">
+          Exclude Komodo National Park Daily ticket
+        </p>
+      </div>
+      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+        <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" 
+           href="/contact/"
+        >
+          Book Now !!
+        </a>
+      </div>
+    </div>
+    <!-- End Card -->
+
+  </div>
+  <!-- End Grid -->
+</div>
+<!-- End Card Blog -->
+</BaseLayout>
