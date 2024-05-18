@@ -1,14 +1,14 @@
 ---
-import { getCollection } from "astro:content";
+
 import BaseLayout from "@layouts/BaseLayout.astro";
-import HeroCard from "@components/HeroCard.astro";
-import Card from "@components/CommonCard.astro";
-import Pagination from "@components/Pagination.astro";
 import { Image } from "astro:assets";
 
 import crew from "src/assets/crew.webp";
 import padar from "src/assets/padar.webp";
 import padar1 from "src/assets/padar-1.webp";
+import fish from "/src/assets/fish.webp";
+import sponge from "/src/assets/sponge.webp";
+
 ---
 
 <BaseLayout title="Gallery" description="Gallery">
@@ -32,8 +32,8 @@ import padar1 from "src/assets/padar-1.webp";
             <img class="w-full h-auto object-cover" src="https://res.cloudinary.com/primayuda/image/upload/v1627887311/Divers%20Paradise%20Komodo/skin%20diving.jpg" alt="Image Description" />
           </div>
           <div class="space-y-2">
-            <img class="w-full h-auto object-cover" src="/src/assets/fish.webp" alt="Image Description" />
-            <img class="w-full h-auto object-cover" src="/src/assets/sponge.webp" alt="Image Description" />
+            <Image class="w-full h-auto object-cover" src={fish} alt="Image Description" />
+            <Image class="w-full h-auto object-cover" src={sponge} alt="Image Description" />
           </div>
           <!-- <div class="space-y-2">
             <img class="w-full h-auto object-cover" src="https://res.cloudinary.com/primayuda/image/upload/v1628419288/Divers%20Paradise%20Komodo/Turtle_with_diver.jpg" alt="Image Description" />

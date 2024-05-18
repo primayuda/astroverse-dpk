@@ -1,14 +1,14 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-
+import { Image } from "astro:assets";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@consts";
 
-
+import logo from "src/assets/DPKLogos-03.webp";
 ---
 
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
   <div>
-    <img src="/src/assets/DPKLogos-03.webp" width="full" height="auto" alt="Divers Paradise Komodo" class="my-0" />
+    <Image src={logo} alt="Divers Paradise Komodo" class="my-0" />
   </div>
   <!-- Hero -->
   <div class="relative overflow-hidden">

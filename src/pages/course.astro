@@ -1,8 +1,13 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 
 const title = "Course";
 const description = "Courses offered by Divers Paradise Komodo";
+
+import ow from "/src/assets/ow.webp";
+import aow from "/src/assets/aow.webp";
+
 ---
 <BaseLayout title={title} description={description}>
 <!-- Card Blog -->
@@ -12,7 +17,7 @@ const description = "Courses offered by Divers Paradise Komodo";
     <!-- Card -->
     <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
       <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
-        <img src="/src/assets/ow.webp" alt="turtle with diver" class="rounded-t-xl" />
+        <Image src={ow} alt="turtle with diver" class="rounded-t-xl" />
       </div>
       <div class="p-4 md:p-6">
         <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -46,7 +51,7 @@ const description = "Courses offered by Divers Paradise Komodo";
     <!-- Card -->
     <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
       <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
-        <img src="/src/assets/aow.webp" alt="turtle with diver" class="rounded-t-xl" />
+        <Image src={aow} alt="turtle with diver" class="rounded-t-xl" />
       </div>
       <div class="p-4 md:p-6">
         <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
