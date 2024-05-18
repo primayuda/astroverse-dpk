@@ -1,16 +1,9 @@
-## 🌍Language Versions / 语言版本
 
-🇺🇸[English](README.md) 🇨🇳[中文](README_CN.md)
 
-## 🚀 **AstroVerse**: An Astro Theme for Visual Storytelling
+## 🚀 **Website Divers Paradise Komodo**: Using AstroVerse Theme from Astro
 
-AstroVerse is an Astro theme tailored for captivating photo-text storytelling.
+Created with Astro, Tailwind CSS and Praline UI
 
-It seamlessly merges visuals and written content, empowering creators to deliver compelling narratives with high-impact imagery.
-
-Ideal for bloggers and content creators seeking to make their stories stand out through the fusion of striking visuals and engaging prose, AstroVerse provides a platform to create immersive and influential digital experiences.
-
-<img src="public/screenshot.webp" alt="AstroVerse Screenshot" />
 
 ## 💯Lighthouse Score
 
@@ -36,15 +29,6 @@ Ideal for bloggers and content creators seeking to make their stories stand out 
 - ✅ Pagination for Easy Navigation
 - ✅ Code formatted with Prettier in one click
 
-## 🎡 Live demo
-
-Experience [**AstroVerse**](https://astroverse.inote.xyz) in action.
-
-## 🌆 Showcase
-
-Share your project built with AstroVerse! Open an issue titled "Showcase Submission" with your project's details to be featured in our Showcase.
-
-- [**iNote**](https://inote.xyz)
 
 ## 💻 Running Locally
 
@@ -151,12 +135,6 @@ export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Site Search`;
 export const SEARCH_PAGE_DESCRIPTION = `Search all content on ${SITE_TITLE}`;
 ```
 
-
-## Deployment
-
-Click the button below to start deploying your project on Vercel:
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/isooosi/astroverse)
 
 ## ✨ Join and Contribute
 
