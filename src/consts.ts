@@ -2,19 +2,19 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroVerse";
-export const SITE_TITLE = "AstroVerse";
-export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
+export const BRAND_NAME = "Divers Paradise Komodo";
+export const SITE_TITLE = "Divers Paradise Komodo";
+export const SITE_DESCRIPTION = "Website of Divers Paradise Komodo";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroVerse - All Tags";
+export const Tags_TITLE = "DPK - All Tags";
 export const Tags_DESCRIPTION =
   "AstroVerse - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in AstroVerse`,
+    title: `All articles on '${tag}' tag in Divers Paradise Komodo`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -22,8 +22,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in AstroVerse`,
-    description: `Browse all articles under the ${category} category in AstroVerse`,
+    title: `All articles in '${category}' category in Divers Paradise Komodo`,
+    description: `Browse all articles under the ${category} category in Divers Paradise Komodo`,
   };
 }
 
@@ -32,6 +32,8 @@ export const HeaderLinks = [
   { href: "/category/One/1/", title: "One" },
   { href: "/category/Two/1/", title: "Two" },
   { href: "/category/Three/1/", title: "Three" },
+  { href: "/gallery/", title: "Gallery"},
+  { href: "/contact/", title: "Contact"}
 ];
 
 // Footer Links, src/components/Footer.astro
