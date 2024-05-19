@@ -9,7 +9,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://divers-paradise-komodo.vercel.app/",
+  site: "https://diversparadisekomodo.com",
   trailingSlash: "always",
 
   prefetch: {
