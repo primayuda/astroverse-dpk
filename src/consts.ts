@@ -43,7 +43,7 @@ export const HeaderLinks = [
 export const FooterLinks = [
   // { href: "/posts/why-astro/", title: "Astro" },
   // { href: "/posts/tailwind-typography/", title: "Tailwind" },
-  { href: "/tags/", title: "Tags" },
+  { href: "/testimonials/", title: "Testimonials" },
 ];
 
 // Social Links, src/components/Footer.astro
