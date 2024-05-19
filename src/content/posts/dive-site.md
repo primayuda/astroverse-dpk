@@ -9,7 +9,7 @@ tags:
   - Site
   - SSI
 pubDate: 2024-05-18
-cover: https://res.cloudinary.com/primayuda/image/upload/v1716027286/Divers%20Paradise%20Komodo/komodomap_j3owiu.png
+cover: https://res.cloudinary.com/primayuda/image/upload/v1716083816/Divers%20Paradise%20Komodo/komodomap-opti_vfv6ai.webp
 coverAlt: Map of Komodo National Park
 author: AP
 ---
