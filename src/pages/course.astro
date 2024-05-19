@@ -10,12 +10,19 @@ import aow from "/src/assets/aow.webp";
 import SSI_Logo from "/src/assets/SSI_LOGO.png";
 import diveassure from "/src/assets/dive_assure.jpg";
 import dan from "/src/assets/dan.jpg";
+import diver2 from "/src/assets/diver2.webp";
 
 // TODO : activate link to SSI, Dive Assure and DAN
 ---
 <BaseLayout title={title} description={description}>
 <h1 class="w-full text-4xl text-center">Dive Course</h1>
-<Image src={SSI_Logo} alt="SSI Logo" class="w-[100px] aspect-auto mx-auto mt-5" />
+<a href='https://my.divessi.com/register/ref/741155' target='_SSI'>
+	<img src='//my.divessi.com/assets/banners/banner_15/125_125.png' alt='SSI - Scuba Schools International - my.divessi.com - Register Now' width='125' height='125' class="mx-auto mt-5" />
+</a>
+<!-- <a href="https://www.divessi.com/en/divecenter/741155" target="_blank">
+  <Image src={SSI_Logo} alt="SSI Logo" class="w-[100px] aspect-auto mx-auto mt-5" />
+</a> -->
+
 <!-- Card Blog -->
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <!-- Grid -->
@@ -88,11 +95,46 @@ import dan from "/src/assets/dan.jpg";
       </div>
     </div>
     <!-- End Card -->
+    <!-- Card -->
+    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+      <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
+        <Image src={diver2} alt="Diver on the water" class="rounded-t-xl" />
+      </div>
+      <div class="p-4 md:p-6">
+        <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+          Continuing Education
+        </span>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+          SSI Specialties and Pro courses
+        </h3>
+        <p class="mt-3 font-bold text-gray-500 dark:text-neutral-500">
+          Depends on the course requirements
+        </p>
+        <p class="mt-3 text-gray-500 dark:text-neutral-500">
+          Continue your education from any Agency certification (SSI, PADI, NAUI, RAID, etc.). Select from various specialties and Pro courses from SSI.
+        </p>
+        <p class="mt-5 font-bold text-gray-500 dark:text-neutral-500">
+          Depend on the course. Contact us for more information
+        </p>
+        <p class="mt-5 italic text-gray-500 dark:text-neutral-500">
+          Exclude Komodo National Park Daily ticket
+        </p>
+      </div>
+      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+        <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" 
+           href="/contact/"
+        >
+          Book Now !!
+        </a>
+      </div>
+    </div>
+    <!-- End Card -->
 
   </div>
   <!-- End Grid -->
 </div>
 <!-- End Card Blog -->
+<h2 class="text-lg font-bold text-center w-full my-5">We provide Dive Insurance from Dive Assure and DAN. <span class="underline"><a href="/contact/">Contact us</a></span> if you need it</h2>
 <Image src={diveassure} alt="Dive Assure Banner" class="mx-auto mb-5" />
 <Image src={dan} alt="Dive Alert Network Banner" class="mx-auto" />
 </BaseLayout>
