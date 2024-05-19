@@ -9,7 +9,7 @@ export const SITE_DESCRIPTION = "Website of Divers Paradise Komodo";
 // Tags Page Metadata, src/pages/tags/index.astro
 export const Tags_TITLE = "DPK - All Tags";
 export const Tags_DESCRIPTION =
-  "AstroVerse - All tags and the count of articles related to each tag";
+  "DPK - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {

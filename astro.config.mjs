@@ -9,7 +9,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astroverse.inote.xyz/",
+  site: "https://divers-paradise-komodo.vercel.app/",
   trailingSlash: "always",
 
   prefetch: {
@@ -27,6 +27,10 @@ export default defineConfig({
         protocol: "https",
         hostname: "*.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "*.cloudinary.com"
+      }
     ],
   },
 
