@@ -45,3 +45,18 @@ const { title, description, image = "/DPKLogocrop.webp" } = Astro.props;
 <script>
   import "preline/dist/preline.js";
 </script>
+<script>
+  // This code should be added to <head>.
+  // It's used to prevent page load glitches.
+  const html = document.querySelector('html');
+  const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  // @ts-ignore: Object is possibly 'null'.
+  if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
+  // @ts-ignore: Object is possibly 'null'.
+  else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
+  // @ts-ignore: Object is possibly 'null'.
+  else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
+  // @ts-ignore: Object is possibly 'null'.
+  else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
+</script>
