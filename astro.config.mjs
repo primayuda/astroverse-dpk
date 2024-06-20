@@ -6,12 +6,17 @@ import partytown from "@astrojs/partytown";
 import pagefind from "astro-pagefind";
 import icon from "astro-icon";
 import tailwind from "@astrojs/tailwind";
+import vercelServerless from "@astrojs/vercel/serverless";
+import vercelStatic from "@astrojs/vercel/static";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://diversparadisekomodo.com",
   trailingSlash: "always",
-
+  output: 'static',
+  adapter: vercelStatic({
+    webAnalytics: { enabled: true }
+  }),
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport',
