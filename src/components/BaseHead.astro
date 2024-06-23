@@ -63,10 +63,23 @@ const { title, description, image = "/DPKLogocrop.webp" } = Astro.props;
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K7S6PTSSGZ">
 </script>
-<!-- <script>
+<script>
+  // Declare dataLayer as a global variable in the Window interface
+  declare global {
+    interface Window {
+      dataLayer: any[];
+    }
+  }
+
+  // Initialize dataLayer if it doesn't exist
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  // Define the gtag function
+  function gtag(...args: any[]) {
+    window.dataLayer.push(...args);
+  }
+  
   gtag('js', new Date());
 
   gtag('config', 'G-K7S6PTSSGZ');
-</script> -->
+</script>
